@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/verde">
+
+    <Button
+        android:id="@+id/add_filme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Filmes"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_weight="1"
+        android:onClick="add_filme"/>
+
+    <Button
+        android:id="@+id/listar_filme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar Filmes"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="1"
+        android:onClick="listar_filme"/>
+
+</LinearLayout>
